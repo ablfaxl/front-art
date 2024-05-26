@@ -4,7 +4,7 @@ import { Avatar, AvatarImage } from "@/components/ui/avatar";
 
 export const Navbar = () => {
   return (
-    <div className="w-full bg-white shadow-md flex items-center justify-between p-4 2xl:container">
+    <div className="w-full bg-white shadow-md flex items-center justify-between p-4 containerd">
       <div className="flex items-center gap-x-5">
         <Avatar>
           <AvatarImage src="https://github.com/shadcn.png" />
